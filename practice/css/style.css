@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    width:200px;
+    vertical-align: middle;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: white;
+    padding: 15px;
+    
+
+}
+.menu{
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 25px;
+   font-family: monospace;  
+   text-transform: capitalize;
+   color: black;
+   font-weight: bold;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://storage.apex4u.com/efdf3b06-8d42-45f9-b6fe-204a0c20ec18.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+     height: 800px;
+
+
+}
+
+.text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: yellow;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+   
+h1{
+    font-size: 100px;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+    background-color: yellow;
+}
+
+.galary{
+    width: 400px;
+    height: 700px;
+    padding-top: 20px;
+    padding-left:20px ;
+    padding-right:20px ;
+
+    margin-top: 30px;
+    background-color:black;
+    border:5px solid yellow ;
+    border-radius: 40px;
+}
+
+.galary img{
+    width: 100%;
+    
+}
+
+.galary div {
+    font-size: 30px;
+text-align: center;
+padding-top: 20px;
+color: black;
+background-color: yellow;
+text-transform: capitalize;
+font-family: monospace;
+padding-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 800px ;
+   background-color: beige;
+}
+
+.galary p {
+    color: black;
+    font-size: 40px;
+    background-color: greenyellow;
+    text-align: center;
+    margin-top: 70px;
+    width:200px;
+    margin-left: 90px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: monospace;
+    text-transform: capitalize;
+    
+}
+
+
+
+.product{
+display: flex;
+max-width: 1250px;
+height:600px ;
+background-color: black;
+margin:auto;
+gap: 20px;
+border: 4px solid rgba(0, 0, 0, 0.9);
+border-radius: 20px;
+}
+  
+.productdetails h2 {
+font-size: 70px;
+font-family: monospace;
+text-transform: capitalize;
+padding-top: 20px;
+font-weight: bolder;
+text-align: center;
+color: white;
+}
+
+.productdetails p {
+    font-size: 23px;
+    font-family: monospace;
+    text-transform: capitalize;
+    padding-top: 20px;
+    text-align: center;
+    color: yellow;
+    }
+
+.te{
+    width:max-content;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.te:hover{
+    opacity: 0.1;
+}
